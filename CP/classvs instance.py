@@ -9,9 +9,9 @@ class Person:
     def amIOld(self):
         # Do some computations in here and print out the correct statement to the console
         if self.age < 13:
-            print('you are young.')
+            print('You are young.')
         elif self.age < 18:
-            print('you are a teenager.')
+            print('You are a teenager.')
         else:
             print('You are old.')
             
