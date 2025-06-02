@@ -33,3 +33,7 @@ def run_tests():
     
 if __name__ == "__main__":
     run_tests()
+#This means run the test cases only if you're executing the file directly in VS Code or terminal.
+
+#If this file is imported somewhere else (e.g., into a unit test framework), it won’t accidentally run run_tests() on import.
+#time complexity O(n), space complexity O(1) and it is perfect
