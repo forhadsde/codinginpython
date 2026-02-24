@@ -21,8 +21,8 @@ if __name__ == "__main__":
     # Test Case 2
     print("Test 2:", sol.twoSum([3, 2, 4], 6))  # Expected: [1, 2]
 
-    # Test Case 3
+    # Test Case 4
     print("Test 3:", sol.twoSum([3, 3], 6))  # Expected: [0, 1]
 
-    # Test Case 4
+    # Test Case 5
     print("Test 4:", sol.twoSum([1, 2, 3, 4], 8))  # Expected: []
